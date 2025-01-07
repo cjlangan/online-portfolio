@@ -64,6 +64,7 @@ header h1 {
 }
 
 .pdf-container {
+  border: none;
   margin-top: 2rem;
   text-align: center;
 }
@@ -80,6 +81,6 @@ header h1 {
 /* Media Query for small screens */
 @media (max-width: 768px) {
   .pdf-container iframe {
-    height: 80vh; /* Adjust height to fit the screen */
+    max-height: 80vh; /* Adjust height to fit the screen */
   }
 }
