@@ -68,7 +68,6 @@ header h1 {
   margin-top: 2rem;
   text-align: center;
   display: block;
-  border: 2px solid red;
 }
 
 .pdf-container iframe {
@@ -78,6 +77,5 @@ header h1 {
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-  border: 2px solid blue;
 }
 
