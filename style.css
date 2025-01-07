@@ -70,15 +70,16 @@ header h1 {
 
 .pdf-container iframe {
   width: 100%;
+  max-width: 100%; /* Prevents overflow */
   height: 600px;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
-
+/* Media Query for small screens */
 @media (max-width: 768px) {
   .pdf-container iframe {
-    height: 100vh; /* Adjust to fit the viewport height */
+    height: 80vh; /* Adjust height to fit the screen */
   }
 }
